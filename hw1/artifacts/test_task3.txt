@@ -1,0 +1,14 @@
+(hw1-py3.12) ➜  hw1 git:(hw/1) python3 hw1/task3.py tests/data/LICENSE 
+      21     169    1071 tests/data/LICENSE
+(hw1-py3.12) ➜  hw1 git:(hw/1) python3 hw1/task3.py tests/data/README.md 
+       2       9      81 tests/data/README.md
+(hw1-py3.12) ➜  hw1 git:(hw/1) python3 hw1/task3.py tests/data/LICENSE tests/data/README.md 
+      21     169    1071 tests/data/LICENSE
+       2       9      81 tests/data/README.md
+      23     178    1152 total
+(hw1-py3.12) ➜  hw1 git:(hw/1) python3 hw1/task3.py                                        
+asdasdasdasd
+asdasdasd
+asdasdasd
+       3       3      33
+(hw1-py3.12) ➜  hw1 git:(hw/1) 
