@@ -1,0 +1,39 @@
+# Я также делаю тесты для каждой таски, чтобы не проверять на глаз, но если так удобно, то ок
+
+(hw1-py3.12) ➜  hw1 git:(hw/1) ✗ python3 hw1/task1.py tests/data/LICENSE 
+     1  MIT License
+     2
+     3  Copyright (c) 2025 Matvey Smirnov
+     4
+     5  Permission is hereby granted, free of charge, to any person obtaining a copy
+     6  of this software and associated documentation files (the "Software"), to deal
+     7  in the Software without restriction, including without limitation the rights
+     8  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+     9  copies of the Software, and to permit persons to whom the Software is
+    10  furnished to do so, subject to the following conditions:
+    11
+    12  The above copyright notice and this permission notice shall be included in all
+    13  copies or substantial portions of the Software.
+    14
+    15  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    16  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    17  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    18  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    19  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    20  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    21  SOFTWARE.
+(hw1-py3.12) ➜  hw1 git:(hw/1) ✗ python3 hw1/task1.py tests/data/README.md 
+     1  # hw-advanced-python
+     2  Homework repo for advanced-python course 2025 (spring-term)
+(hw1-py3.12) ➜  hw1 git:(hw/1) ✗ python3 hw1/task1.py 
+asdfasdf
+     1  asdfasdf
+asdfsadfsa
+     2  asdfsadfsa
+asdasgasdg
+     3  asdasgasdg
+asdfasdfas
+     4  asdfasdfas
+dfasdfasd
+     5  dfasdfasd
+     
