@@ -1,0 +1,30 @@
+[project]
+name = "generate-latex"
+version = "0.1.0"
+description = "Module for testing latex generation"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dynamic = ["dependencies"]
+
+[tool.poetry.dependencies]
+advanced-python-hw2-vdaleke = ">=0.1.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = ">=24.4.2"
+pytest = ">=7.1.2"
+mypy = ">=1.6.0"
+isort = ">=5.10.1"
+autoflake = ">=2.0.0"
+flake8 = ">=7.1.0"
+flake8-docstrings = ">=1.6.0"
+pep8-naming = ">=0.13.2"
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
+
+[build-system]
+requires = ["poetry-core>=2.0.0, <3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  generate-latex:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    volumes:
+      - ./generate-latex/latex:/app/generate-latex/latex
