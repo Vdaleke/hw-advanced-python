@@ -1,0 +1,3 @@
+Hash of A and C: 936
+Hash of AB: 234414
+Hash of CD: 231490
