@@ -1,0 +1,17 @@
+[16:44:55.533401] Введите сообщение (или 'exit' для выхода):
+[16:44:55.533593] User input: Hello World
+[16:44:55.533783] Main -> A: Hello World
+[16:44:55.564043] Process B: uryyb jbeyq
+[16:44:55.564294] Main received from B: uryyb jbeyq
+[16:44:55.564368] Введите сообщение (или 'exit' для выхода):
+[16:44:55.564410] User input: TEST Message
+[16:44:55.564447] Main -> A: TEST Message
+[16:45:00.566957] Process B: grfg zrffntr
+[16:45:00.567591] Main received from B: grfg zrffntr
+[16:45:00.567650] Введите сообщение (или 'exit' для выхода):
+[16:45:00.567688] User input: Python ROT13
+[16:45:00.567754] Main -> A: Python ROT13
+[16:45:05.570509] Process B: clguba ebg13
+[16:45:05.571615] Main received from B: clguba ebg13
+[16:45:05.571741] Введите сообщение (или 'exit' для выхода):
+[16:45:05.571789] User input: exit

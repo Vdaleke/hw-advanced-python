@@ -1,0 +1,26 @@
+[project]
+authors = [{name = "Matvei Smirnov", email = "vdalekesmirnov@gmail.com"}]
+dependencies = []
+name = "hw4"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+hw4 = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+test = "pytest tests/"
+
+[tool.pixi.feature.test.pypi-dependencies]
+pytest = ">=8.3.5"
+
+[tool.pixi.environments]
+dev = {features = ["test"]}
