@@ -20,8 +20,12 @@ class YandexRealtyScraper:
     def load_existing_data(self):
         if os.path.exists(self.output_file):
             with open(self.output_file, "r") as f:
-                data = json.load(f)
-                self.seen_ads = {ad["id"] for ad in data}
+                try:
+                    data = json.load(f)
+                    self.seen_ads = {ad["id"] for ad in data}
+                except json.JSONDecodeError:
+                    logger.error(f"Error decoding JSON from {self.output_file}, starting with empty data.")
+                    self.seen_ads = set()
         else:
             self.seen_ads = set()
 
