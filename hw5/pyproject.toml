@@ -1,0 +1,33 @@
+[project]
+authors = [{ name = "Matvei Smirnov", email = "vdalekesmirnov@gmail.com" }]
+name = "hw5"
+requires-python = ">= 3.11"
+version = "0.1.0"
+dynamic = ["dependencies"]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+hw5 = { path = ".", editable = true }
+aiohttp = { version = "~=3.11.16", extras = ["speedups"] }
+beautifulsoup4 = ">=4.13.3"
+
+[tool.pixi.tasks]
+test = "pytest tests/"
+task1 = "python src/hw5/task1.py"
+task2 = "python src/hw5/task2.py"
+
+[tool.pixi.feature.style.pypi-dependencies]
+ruff = ">=0.11.4"
+
+[tool.pixi.feature.test.pypi-dependencies]
+pytest = ">=8.3.5"
+
+[tool.pixi.environments]
+dev = { features = ["test", "style"] }
